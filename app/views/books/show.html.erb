@@ -3,8 +3,8 @@
 		<tbody>
 			<td></td>
 			<td></td>
-			<td><%= @book1.title%></td>
-			<td><%= @book1.body %> </td>
+			<td><%= @user.title%></td>
+			<td><%= @user.body %> </td>
 			<td><%=link_to 'edit', edit_book_path(@book1)%></td>
 			<td><%= link_to 'Destroy',book_path(@book1), method: :delete, data: {confirm: 'Are you sure?'} %></td>
 		</tr>
